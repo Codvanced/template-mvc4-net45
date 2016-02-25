@@ -49,13 +49,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DryIoc, Version=2.1.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DryIoc.dll.2.1.3\lib\net45\DryIoc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DryIoc.Web, Version=2.0.0.356, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DryIoc.Web.dll.2.0.0\lib\net45\DryIoc.Web.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="DryIoc">
+      <HintPath>..\packages\DryIoc.dll.2.1.0\lib\net40\DryIoc.dll</HintPath>
     </Reference>
     <Reference Include="IOC.FW.Abstraction, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -79,7 +74,7 @@
     </Reference>
     <Reference Include="IOC.FW.Web.MVC, Version=1.0.0.16638, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\template-mvc4-net4\template\CodvancedFwReferences\IOC.FW.Web.MVC.dll</HintPath>
+      <HintPath>..\CodvancedFwReferences\IOC.FW.Web.MVC.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -218,6 +213,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Config\smtp-settings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\ioc-framework.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

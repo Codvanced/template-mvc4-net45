@@ -38,22 +38,23 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CodvancedFwReferences\IOC.FW.Abstraction.dll</HintPath>
     </Reference>
-    <Reference Include="IOC.FW.ContainerManager, Version=1.0.0.15795, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="IOC.FW.ContainerManager, Version=1.0.0.16637, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CodvancedFwReferences\IOC.FW.ContainerManager.dll</HintPath>
     </Reference>
-    <Reference Include="IOC.FW.Core, Version=1.0.0.15794, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="IOC.FW.Core, Version=1.0.0.16635, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CodvancedFwReferences\IOC.FW.Core.dll</HintPath>
     </Reference>
-    <Reference Include="IOC.FW.Logging">
+    <Reference Include="IOC.FW.Logging, Version=1.0.0.16637, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CodvancedFwReferences\IOC.FW.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="IOC.FW.Repository, Version=1.0.0.15794, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="IOC.FW.Repository, Version=1.0.0.16637, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CodvancedFwReferences\IOC.FW.Repository.dll</HintPath>
     </Reference>
-    <Reference Include="IOC.FW.Shared, Version=1.0.0.15793, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="IOC.FW.Shared, Version=1.0.0.16635, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CodvancedFwReferences\IOC.FW.Shared.dll</HintPath>
     </Reference>
