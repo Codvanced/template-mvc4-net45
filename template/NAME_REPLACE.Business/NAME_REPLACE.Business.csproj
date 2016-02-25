@@ -30,8 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="IOC.FW.Abstraction">
+      <HintPath>..\CodvancedFwReferences\IOC.FW.Abstraction.dll</HintPath>
+    </Reference>
     <Reference Include="IOC.FW.Core">
       <HintPath>..\CodvancedFwReferences\IOC.FW.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IOC.FW.Repository">
+      <HintPath>..\CodvancedFwReferences\IOC.FW.Repository.dll</HintPath>
     </Reference>
     <Reference Include="IOC.FW.Shared">
       <HintPath>..\CodvancedFwReferences\IOC.FW.Shared.dll</HintPath>
@@ -60,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\" />
+    <Folder Include="Validations\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

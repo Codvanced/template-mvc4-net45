@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="IOC.FW.Abstraction">
+      <HintPath>..\CodvancedFwReferences\IOC.FW.Abstraction.dll</HintPath>
+    </Reference>
     <Reference Include="IOC.FW.Core">
       <HintPath>..\CodvancedFwReferences\IOC.FW.Core.dll</HintPath>
     </Reference>

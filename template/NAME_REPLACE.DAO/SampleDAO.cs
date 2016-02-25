@@ -1,9 +1,7 @@
-﻿
-using NAME_REPLACE.Abstraction.DAO;
+﻿using NAME_REPLACE.Abstraction.DAO;
 using NAME_REPLACE.Entities;
-
-using IOC.FW.Core.Abstraction.Repository;
-using IOC.FW.Core.Implementation.Base;
+using IOC.FW.Repository;
+using IOC.FW.Abstraction.Repository;
 
 namespace NAME_REPLACE.DAO
 {
